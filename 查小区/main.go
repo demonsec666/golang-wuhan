@@ -45,7 +45,7 @@ func main() {
 		quezhen := feiyan[0]
 		zhiyu := feiyan[1]
 		siwang := feiyan[2]
-		all_city := "确诊: " + quezhen + " 治愈: " + zhiyu + " 死亡: " + siwang
+		all_city := "本市确诊: " + quezhen + " 治愈: " + zhiyu + " 死亡: " + siwang
 		app.StatusLine(all_city)
 	})
 	dom.Find(".list .list-border").Each(func(i int, contentSelection *goquery.Selection) {
