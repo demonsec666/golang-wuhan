@@ -4,6 +4,7 @@
 ### 前提
 - macOS
 - 安装了 [Bitbar](https://getbitbar.com)
+- release https://github.com/demonsec666/golang-wuhan/releases
 
 
 ### 如何安装插件
